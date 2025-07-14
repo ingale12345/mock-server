@@ -10,11 +10,12 @@ const menuRoutes = require("./routes/menuRoutes");
 const addonsRoutes = require("./routes/addonsRoutes");
 const restaurantsRoutes = require("./routes/restaurantsRoutes");
 const promotionsRoutes = require("./routes/promotionsRoutes.js");
+const cartRoutes = require("./routes/cartRoutes");
 app.use(cors());
 app.use(express.json());
 app.use("/api", userRoutes);
 
-// app.use("/api", mockRoutes);
+app.use("/api/cart", cartRoutes);
 
 app.use("/api/categories", categoriesRoutes);
 app.use("/api/menu", menuRoutes);

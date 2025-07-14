@@ -1,7 +1,30 @@
 const { readJson, writeJson } = require('../utils/fileHelper');
+const path = require('path');
+const fs = require('fs');
+
+const ORDERS_PATH = path.join(__dirname, '../data/orders.json');
+
+function readOrders() {
+  try {
+    return JSON.parse(fs.readFileSync(ORDERS_PATH, 'utf8'));
+  } catch (e) {
+    return [];
+  }
+}
 
 const getMenuItems = (req, res) => {
   const items = readJson('menuItems.json');
+  const { sessionId } = req.query;
+  if (sessionId) {
+    const orders = readOrders();
+    const itemsWithQty = items.map(item => {
+      const qty = orders
+        .filter(o => o.sessionId === sessionId && o.itemCode === item.itemId)
+        .reduce((sum, o) => sum + (o.quantity || 0), 0);
+      return { ...item, selectedQuantity: qty };
+    });
+    return res.json(itemsWithQty);
+  }
   res.json(items);
 };
 
@@ -39,9 +62,27 @@ const deleteMenuItemById = (req, res) => {
   }
 };
 
+const getMenuItemsByCategory = (req, res) => {
+  const items = readJson('menuItems.json');
+  const { category, sessionId } = req.query;
+  if (!category) return res.status(400).json({ message: 'Category is required' });
+  let filtered = items.filter(i => i.category?.toLowerCase() === category.toLowerCase());
+  if (sessionId) {
+    const orders = readOrders();
+    filtered = filtered.map(item => {
+      const qty = orders
+        .filter(o => o.sessionId === sessionId && o.itemCode === item.itemId)
+        .reduce((sum, o) => sum + (o.quantity || 0), 0);
+      return { ...item, selectedQuantity: qty };
+    });
+  }
+  res.json(filtered);
+};
+
 module.exports = {
   getMenuItems,
   getMenuItemById,
   updateMenuItemById,
-  deleteMenuItemById
+  deleteMenuItemById,
+  getMenuItemsByCategory,
 };

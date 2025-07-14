@@ -7,7 +7,8 @@
     "recommended": true,
     "discount": 10,
     "addedToCart": true,
-    "category": "appetizers"
+    "category": "appetizers",
+    "description": "Chicken Teriyaki is a classic Japanese dish that combines tender chicken with a sweet and savory teriyaki sauce. It's served with a side of rice and vegetables, and is a popular choice for a quick and easy meal."
   },
   {
     "itemId": "item 2",
@@ -15,7 +16,8 @@
     "price": 14.99,
     "imageUrl": "https://somuchfoodblog.com/wp-content/uploads/2022/10/korean-beef-noodles13.jpg",
     "discount": 15,
-    "category": "soups"
+    "category": "soups",
+    "description": "Beef Ramen is a traditional Japanese noodle soup that is made with a rich and flavorful broth, tender slices of beef, and a variety of vegetables. It's a popular choice for a quick and easy meal."
   },
   {
     "itemId": "item 3",
@@ -24,7 +26,8 @@
     "imageUrl": "https://www.veggiesdontbite.com/wp-content/uploads/2020/05/vegan-veggie-sushi-rolls-FI.jpg",
     "disabled": true,
     "outOfStock": true,
-    "category": "salads"
+    "category": "salads",
+    "description": "Vegetable Sushi is a classic Japanese dish that combines rice with a variety of vegetables, and is a popular choice for a quick and easy meal."
   },
   {
     "itemId": "item 4",
@@ -32,7 +35,8 @@
     "price": 11.99,
     "imageUrl": "https://www.tiger-corporation.com/wp-content/uploads/2023/02/hero-img-recipe-spicy-tuna-3db6e125056f2bde01321a3da5d290da.jpg",
     "recommended": true,
-    "category": "sea-food"
+    "category": "sea-food",
+    "description": "Spicy Tuna Roll is a classic Japanese dish that combines rice with a variety of vegetables, and is a popular choice for a quick and easy meal."
   },
   {
     "itemId": "item 5",
@@ -40,14 +44,16 @@
     "price": 4.99,
     "imageUrl": "https://www.gimmesomeoven.com/wp-content/uploads/2016/01/Miso-Soup-Recipe-9.jpg",
     "discount": 5,
-    "category": "soups"
+    "category": "soups",
+    "description": "Miso Soup is a traditional Japanese soup that is made with a rich and flavorful broth, and is a popular choice for a quick and easy meal."
   },
   {
     "itemId": "item 6",
     "title": "Edamame Beans",
     "price": 5.99,
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWKS9BCI8eKCHsFowNbAx-CLsNdtGkNsNu1Q&s",
-    "category": "appetizers"
+    "category": "appetizers",
+    "description": "Edamame Beans are a traditional Japanese dish that combines rice with a variety of vegetables, and is a popular choice for a quick and easy meal."
   },
   {
     "itemId": "item 7",
@@ -56,7 +62,8 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz7oaxqF39jx49QzgJwayGuK3F0veXzP3VCg&s",
     "recommended": true,
     "discount": 20,
-    "category": "sea-food"
+    "category": "sea-food",
+    "description": "Tempura Udon is a traditional Japanese dish that combines rice with a variety of vegetables, and is a popular choice for a quick and easy meal."
   },
 
   {
@@ -66,7 +73,8 @@
     "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2023/06/corn-pizza.jpg",
     "recommended": true,
     "discount": 10,
-    "category": "pizza"
+    "category": "pizza",
+    "description": "Sweet Corn Pizza is a classic Italian dish that combines corn with a variety of vegetables, and is a popular choice for a quick and easy meal."
   },
   {
     "itemId": "item 9",
@@ -75,7 +83,8 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP0HbRY0SsECXq3XHqjXUBw3CqK1VfE5PX1w&s",
     "recommended": true,
     "discount": 60,
-    "category": "pizza"
+    "category": "pizza",
+    "description": "Classic Margherita Pizza is a classic Italian dish that combines cheese with a variety of vegetables, and is a popular choice for a quick and easy meal."
   },
   {
     "itemId": "item 10",
@@ -84,7 +93,8 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjgR17E1JFuiZxGz-Z2kITcowgNLM1aYnp9w&s",
     "recommended": true,
     "discount": 80,
-    "category": "pizza"
+    "category": "pizza",
+    "description": "Paneer Tikka Pizza is a classic Indian dish that combines paneer with a variety of vegetables, and is a popular choice for a quick and easy meal."
   },
   {
     "itemId": "item 11",
@@ -93,7 +103,8 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF6uKAhHNURuHk4aL_PTMqxxpP5jhkwLxfRw&s",
     "recommended": true,
     "discount": 10,
-    "category": "pizza"
+    "category": "pizza",
+    "description": "Grilled Chicken Pizza is a classic Italian dish that combines grilled chicken with a variety of vegetables, and is a popular choice for a quick and easy meal."
   },
   {
     "itemId": "item 12 ",
@@ -101,14 +112,16 @@
     "price": 20.2,
     "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/7c/88/1a/caption.jpg?w=900&h=500&s=1",
     "discount": 10,
-    "category": "pizza"
+    "category": "pizza",
+    "description": "Cheesy Gyudon Pizza is a classic Italian dish that combines cheese with a variety of vegetables, and is a popular choice for a quick and easy meal."
   },
   {
     "itemId": "item 13",
     "title": "Spicy Gyudon Melt",
     "price": 21.3,
     "imageUrl": "https://thumbs.dreamstime.com/b/delicious-sizzling-pizza-classic-melted-cheese-tangy-tomato-sauce-spicy-pepperoni-slices-277174857.jpg",
-    "category": "pizza"
+    "category": "pizza",
+    "description": "Spicy Gyudon Pizza is a classic Italian dish that combines spicy gyudon with a variety of vegetables, and is a popular choice for a quick and easy meal."
   },
   {
     "itemId": "item 14",
@@ -116,7 +129,8 @@
     "price": 22.99,
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9kgFiSq3oVdSTUSKOl8_Xt7gi38Ed-Ksagg&s",
     "recommended": true,
-    "category": "pizza"
+    "category": "pizza",
+    "description": "Teriyaki Gyudon Pizza is a classic Japanese dish that combines teriyaki gyudon with a variety of vegetables, and is a popular choice for a quick and easy meal."
   },
   {
     "itemId": "item 15",
@@ -125,7 +139,8 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6YI_ZqwNxZP341Xb-MNF9G1LT1R9dHVAIJQ&s",
     "recommended": true,
     "discount": 10,
-    "category": "pizza"
+    "category": "pizza",
+    "description": "Triple Cheese Gyudon is a classic Italian dish that combines three types of cheese with a variety of vegetables, and is a popular choice for a quick and easy meal."
   },
   {
     "itemId": "item 16",
@@ -133,6 +148,7 @@
     "price": 19.99,
     "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeB6chs6atULKfdhGzCudBVIqyo4ef7KlaInBrwYLxxWb4-eX6Q-GGRv_hlv7Jqh5Jm2asU0D8z1NWBSDe41V85k8pxC5hNGbvjJfev5WQemPulxIJKTUIQZuFzEBfpWkhcoxusBNAfNhtoq89aeZWVLrvFg1zDpFqVJ5WrxcK6JzEqx09YpbtAIfjHD8/s640/dominos-singapore-shawarma-volcano-pizza.jpg",
     "discount": 10,
-    "category": "pizza"
+    "category": "pizza",
+    "description": "Beef & Cheese Volcano is a classic Italian dish that combines beef with a variety of vegetables, and is a popular choice for a quick and easy meal."
   }
 ]

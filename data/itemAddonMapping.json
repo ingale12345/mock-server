@@ -1,0 +1,18 @@
+{
+  "item 1": ["addon-1", "addon-2", "addon-3", "addon-4"],
+  "item 2": ["addon-1", "addon-2", "addon-5"],
+  "item 3": ["addon-1", "addon-3"],
+  "item 4": ["addon-1", "addon-2", "addon-4"],
+  "item 5": ["addon-1", "addon-2"],
+  "item 6": ["addon-1", "addon-3"],
+  "item 7": ["addon-1", "addon-2", "addon-4", "addon-5"],
+  "item 8": ["addon-1", "addon-2", "addon-3", "addon-4"],
+  "item 9": ["addon-1", "addon-2", "addon-3"],
+  "item 10": ["addon-1", "addon-2", "addon-3", "addon-4"],
+  "item 11": ["addon-1", "addon-2", "addon-3", "addon-5"],
+  "item 12": ["addon-1", "addon-2", "addon-3", "addon-4"],
+  "item 13": ["addon-1", "addon-2", "addon-3"],
+  "item 14": ["addon-1", "addon-2", "addon-3", "addon-4"],
+  "item 15": ["addon-1", "addon-2", "addon-3", "addon-4"],
+  "item 16": ["addon-1", "addon-2", "addon-3", "addon-4", "addon-5"]
+}

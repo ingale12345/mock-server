@@ -5,9 +5,11 @@ const {
   getMenuItemById,
   updateMenuItemById,
   deleteMenuItemById,
+  getMenuItemsByCategory,
 } = require("../controllers/menuController");
 
 router.get("/", getMenuItems);
+router.get("/category", getMenuItemsByCategory);
 router.get("/:id", getMenuItemById);
 router.put("/:id", updateMenuItemById);
 router.delete("/:id", deleteMenuItemById);

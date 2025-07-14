@@ -8,13 +8,13 @@ const getRestaurants = (req, res) => {
 // Filter by restaurant code and/or group code
 const filterRestaurants = (req, res) => {
   const { code, groupcode } = req.query;
-  let restaurants = readJson('restaurants.json');
+  let restaurants = readJson("restaurants.json");
   if (code) {
-    restaurants = restaurants.filter(r => r.code === code);
+    restaurants = restaurants.filter((r) => r.code === code);
   }
   if (groupcode) {
-    restaurants = restaurants.filter(r =>
-      r.groups && r.groups.some(g => g.code === groupcode)
+    restaurants = restaurants.filter(
+      (r) => r.groups && r.groups.some((g) => g.code === groupcode)
     );
   }
   res.json(restaurants);
