@@ -8,6 +8,7 @@ const cors = require("cors");
 const categoriesRoutes = require("./routes/categoriesRoutes");
 const menuRoutes = require("./routes/menuRoutes");
 const addonsRoutes = require("./routes/addonsRoutes");
+const restaurantsRoutes = require("./routes/restaurantsRoutes");
 const promotionsRoutes = require("./routes/promotionsRoutes.js");
 app.use(cors());
 app.use(express.json());
@@ -18,6 +19,7 @@ app.use("/api", userRoutes);
 app.use("/api/categories", categoriesRoutes);
 app.use("/api/menu", menuRoutes);
 app.use("/api/addons", addonsRoutes);
+app.use("/api/restaurants", restaurantsRoutes);
 app.use("/api/promotions", promotionsRoutes);
 // Serve static files if needed
 app.use(express.static(path.join(__dirname, "public")));
