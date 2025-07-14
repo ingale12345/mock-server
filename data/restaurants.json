@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Sushi Tokyo",
+    "name_ja": "寿司東京",
+    "code": "sushi-jp",
+    "image": "https://t4.ftcdn.net/jpg/01/81/27/53/360_F_181275381_mYNQJq5K97UFJe8YGK2EXaIbQrE5UVY7.jpg",
+    "location": "Tokyo, Japan",
+    "groups": [
+      { "name": "Zen", "code": "zen", "tables": [1, 2, 3, 4, 5] },
+      { "name": "Garden", "code": "garden", "tables": [1, 2, 3, 4, 5] }
+    ]
+  },
+  {
+    "name": "Izakaya Kyoto",
+    "name_ja": "居酒屋京都",
+    "code": "izakaya-jp",
+    "image": "https://t4.ftcdn.net/jpg/01/81/27/53/360_F_181275381_mYNQJq5K97UFJe8YGK2EXaIbQrE5UVY7.jpg",
+    "location": "Kyoto, Japan",
+    "groups": [
+      { "name": "Tatami", "code": "tatami", "tables": [1, 2, 3, 4, 5] },
+      { "name": "Counter", "code": "counter", "tables": [1, 2, 3, 4, 5] }
+    ]
+  },
+  {
+    "name": "Ramen Ichiban",
+    "name_ja": "ラーメン一番",
+    "code": "ramen-jp",
+    "image": "https://t4.ftcdn.net/jpg/01/81/27/53/360_F_181275381_mYNQJq5K97UFJe8YGK2EXaIbQrE5UVY7.jpg",
+    "location": "Osaka, Japan",
+    "groups": [
+      { "name": "Main Hall", "code": "main", "tables": [1, 2, 3, 4, 5] },
+      { "name": "Private Booth", "code": "booth", "tables": [1, 2, 3, 4, 5] }
+    ]
+  },
+  {
+    "name": "Taco Bell",
+    "name_ja": "タコベル",
+    "code": "taco-in",
+    "image": "https://t4.ftcdn.net/jpg/01/81/27/53/360_F_181275381_mYNQJq5K97UFJe8YGK2EXaIbQrE5UVY7.jpg",
+    "location": "India",
+    "groups": [
+      { "name": "Main", "code": "main", "tables": [1, 2, 3, 4, 5] },
+      { "name": "Lounge", "code": "lounge", "tables": [1, 2, 3, 4, 5] }
+    ]
+  },
+  {
+    "name": "Pizza Hut",
+    "name_ja": "ピザハット",
+    "code": "pizzahut-sg",
+    "image": "https://t4.ftcdn.net/jpg/01/81/27/53/360_F_181275381_mYNQJq5K97UFJe8YGK2EXaIbQrE5UVY7.jpg",
+    "location": "Singapore",
+    "groups": [
+      { "name": "Main", "code": "main", "tables": [1, 2, 3, 4, 5] },
+      { "name": "Family", "code": "family", "tables": [1, 2, 3, 4, 5] }
+    ]
+  },
+  {
+    "name": "Domino's",
+    "name_ja": "ドミノ・ピザ",
+    "code": "dominos-my",
+    "image": "https://t4.ftcdn.net/jpg/01/81/27/53/360_F_181275381_mYNQJq5K97UFJe8YGK2EXaIbQrE5UVY7.jpg",
+    "location": "Malaysia",
+    "groups": [
+      { "name": "Indoor", "code": "indoor", "tables": [1, 2, 3, 4, 5] },
+      { "name": "Outdoor", "code": "outdoor", "tables": [1, 2, 3, 4, 5] }
+    ]
+  },
+  {
+    "name": "Starbucks",
+    "name_ja": "スターバックス",
+    "code": "starbucks-jp",
+    "image": "https://t4.ftcdn.net/jpg/01/81/27/53/360_F_181275381_mYNQJq5K97UFJe8YGK2EXaIbQrE5UVY7.jpg",
+    "location": "Japan",
+    "groups": [
+      { "name": "Standard", "code": "std", "tables": [1, 2, 3, 4, 5] },
+      { "name": "Silent", "code": "silent", "tables": [1, 2, 3, 4, 5] }
+    ]
+  },
+  {
+    "name": "McDonald's",
+    "name_ja": "マクドナルド",
+    "code": "mcd-uk",
+    "image": "https://t4.ftcdn.net/jpg/01/81/27/53/360_F_181275381_mYNQJq5K97UFJe8YGK2EXaIbQrE5UVY7.jpg",
+    "location": "UK",
+    "groups": [
+      { "name": "Standard", "code": "std", "tables": [1, 2, 3, 4, 5] },
+      { "name": "VIP", "code": "vip", "tables": [1, 2, 3, 4, 5] }
+    ]
+  },
+  {
+    "name": "Nando's",
+    "name_ja": "ナンドス",
+    "code": "nandos-za",
+    "image": "https://t4.ftcdn.net/jpg/01/81/27/53/360_F_181275381_mYNQJq5K97UFJe8YGK2EXaIbQrE5UVY7.jpg",
+    "location": "South Africa",
+    "groups": [
+      { "name": "Grill", "code": "grill", "tables": [1, 2, 3, 4, 5] },
+      { "name": "Peri-VIP", "code": "peri", "tables": [1, 2, 3, 4, 5] }
+    ]
+  },
+  {
+    "name": "Subway",
+    "name_ja": "サブウェイ",
+    "code": "subway-us",
+    "image": "https://t4.ftcdn.net/jpg/01/81/27/53/360_F_181275381_mYNQJq5K97UFJe8YGK2EXaIbQrE5UVY7.jpg",
+    "location": "USA",
+    "groups": [
+      { "name": "Standard", "code": "std", "tables": [1, 2, 3, 4, 5] },
+      { "name": "Booth", "code": "booth", "tables": [1, 2, 3, 4, 5] }
+    ]
+  },
+  {
+    "name": "KFC",
+    "name_ja": "ケンタッキーフライドチキン",
+    "code": "kfc-th",
+    "image": "https://t4.ftcdn.net/jpg/01/81/27/53/360_F_181275381_mYNQJq5K97UFJe8YGK2EXaIbQrE5UVY7.jpg",
+    "location": "Thailand",
+    "groups": [
+      { "name": "Main", "code": "main", "tables": [1, 2, 3, 4, 5] },
+      { "name": "VIP", "code": "vip", "tables": [1, 2, 3, 4, 5] }
+    ]
+  },
+  {
+    "name": "Burger King",
+    "name_ja": "バーガーキング",
+    "code": "burger-ae",
+    "image": "https://t4.ftcdn.net/jpg/01/81/27/53/360_F_181275381_mYNQJq5K97UFJe8YGK2EXaIbQrE5UVY7.jpg",
+    "location": "UAE",
+    "groups": [
+      { "name": "Main", "code": "main", "tables": [1, 2, 3, 4, 5] },
+      { "name": "DriveThru", "code": "drive", "tables": [1, 2, 3, 4, 5] }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+[
+  { "id": "addon-1", "name": "Caramelised Onions", "price": 1.0 },
+  { "id": "addon-2", "name": "Sautéed Vegetables", "price": 1.0 },
+  { "id": "addon-3", "name": "Cheese", "price": 1.0 },
+  { "id": "addon-4", "name": "2 Dip Combos", "price": 1.0 },
+  { "id": "addon-5", "name": "Seasoned Breads", "price": 1.0 }
+]

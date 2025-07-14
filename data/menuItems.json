@@ -1,0 +1,138 @@
+[
+  {
+    "itemId": "item 1",
+    "title": "Chicken Teriyaki",
+    "price": 12.99,
+    "imageUrl": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2024-05-chicken-teriyaki-190%2Fchicken-teriyaki-190-171-horizontal",
+    "recommended": true,
+    "discount": 10,
+    "addedToCart": true,
+    "category": "appetizers"
+  },
+  {
+    "itemId": "item 2",
+    "title": "Beef Ramen",
+    "price": 14.99,
+    "imageUrl": "https://somuchfoodblog.com/wp-content/uploads/2022/10/korean-beef-noodles13.jpg",
+    "discount": 15,
+    "category": "soups"
+  },
+  {
+    "itemId": "item 3",
+    "title": "Vegetable Sushi",
+    "price": 9.99,
+    "imageUrl": "https://www.veggiesdontbite.com/wp-content/uploads/2020/05/vegan-veggie-sushi-rolls-FI.jpg",
+    "disabled": true,
+    "outOfStock": true,
+    "category": "salads"
+  },
+  {
+    "itemId": "item 4",
+    "title": "Spicy Tuna Roll",
+    "price": 11.99,
+    "imageUrl": "https://www.tiger-corporation.com/wp-content/uploads/2023/02/hero-img-recipe-spicy-tuna-3db6e125056f2bde01321a3da5d290da.jpg",
+    "recommended": true,
+    "category": "sea-food"
+  },
+  {
+    "itemId": "item 5",
+    "title": "Miso Soup",
+    "price": 4.99,
+    "imageUrl": "https://www.gimmesomeoven.com/wp-content/uploads/2016/01/Miso-Soup-Recipe-9.jpg",
+    "discount": 5,
+    "category": "soups"
+  },
+  {
+    "itemId": "item 6",
+    "title": "Edamame Beans",
+    "price": 5.99,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWKS9BCI8eKCHsFowNbAx-CLsNdtGkNsNu1Q&s",
+    "category": "appetizers"
+  },
+  {
+    "itemId": "item 7",
+    "title": "Tempura Udon",
+    "price": 13.99,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz7oaxqF39jx49QzgJwayGuK3F0veXzP3VCg&s",
+    "recommended": true,
+    "discount": 20,
+    "category": "sea-food"
+  },
+
+  {
+    "itemId": "item 8",
+    "title": "Sweet Corn Pizza",
+    "price": 15.99,
+    "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2023/06/corn-pizza.jpg",
+    "recommended": true,
+    "discount": 10,
+    "category": "pizza"
+  },
+  {
+    "itemId": "item 9",
+    "title": "Classic Margherita Pizza",
+    "price": 18.5,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP0HbRY0SsECXq3XHqjXUBw3CqK1VfE5PX1w&s",
+    "recommended": true,
+    "discount": 60,
+    "category": "pizza"
+  },
+  {
+    "itemId": "item 10",
+    "title": "Paneer Tikka Pizza",
+    "price": 17.49,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjgR17E1JFuiZxGz-Z2kITcowgNLM1aYnp9w&s",
+    "recommended": true,
+    "discount": 80,
+    "category": "pizza"
+  },
+  {
+    "itemId": "item 11",
+    "title": "Grilled Chicken Pizza",
+    "price": 19.75,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF6uKAhHNURuHk4aL_PTMqxxpP5jhkwLxfRw&s",
+    "recommended": true,
+    "discount": 10,
+    "category": "pizza"
+  },
+  {
+    "itemId": "item 12 ",
+    "title": "Cheesy Gyudon Pizza",
+    "price": 20.2,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/7c/88/1a/caption.jpg?w=900&h=500&s=1",
+    "discount": 10,
+    "category": "pizza"
+  },
+  {
+    "itemId": "item 13",
+    "title": "Spicy Gyudon Melt",
+    "price": 21.3,
+    "imageUrl": "https://thumbs.dreamstime.com/b/delicious-sizzling-pizza-classic-melted-cheese-tangy-tomato-sauce-spicy-pepperoni-slices-277174857.jpg",
+    "category": "pizza"
+  },
+  {
+    "itemId": "item 14",
+    "title": "Teriyaki Gyudon Pizza",
+    "price": 22.99,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9kgFiSq3oVdSTUSKOl8_Xt7gi38Ed-Ksagg&s",
+    "recommended": true,
+    "category": "pizza"
+  },
+  {
+    "itemId": "item 15",
+    "title": "Triple Cheese Gyudon",
+    "price": 23.5,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6YI_ZqwNxZP341Xb-MNF9G1LT1R9dHVAIJQ&s",
+    "recommended": true,
+    "discount": 10,
+    "category": "pizza"
+  },
+  {
+    "itemId": "item 16",
+    "title": "Beef & Cheese Volcano",
+    "price": 19.99,
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeB6chs6atULKfdhGzCudBVIqyo4ef7KlaInBrwYLxxWb4-eX6Q-GGRv_hlv7Jqh5Jm2asU0D8z1NWBSDe41V85k8pxC5hNGbvjJfev5WQemPulxIJKTUIQZuFzEBfpWkhcoxusBNAfNhtoq89aeZWVLrvFg1zDpFqVJ5WrxcK6JzEqx09YpbtAIfjHD8/s640/dominos-singapore-shawarma-volcano-pizza.jpg",
+    "discount": 10,
+    "category": "pizza"
+  }
+]

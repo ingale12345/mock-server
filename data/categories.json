@@ -1,0 +1,18 @@
+[
+  { "categoryId": "cat-1", "name": "All", "categoryCode": "all" },
+  { "categoryId": "cat-2", "name": "Appetizers", "categoryCode": "appetizers" },
+  { "categoryId": "cat-3", "name": "Soups", "categoryCode": "soups" },
+  { "categoryId": "cat-4", "name": "Salads", "categoryCode": "salads" },
+  { "categoryId": "cat-5", "name": "Sea Food", "categoryCode": "sea-food" },
+  { "categoryId": "cat-6", "name": "Desserts", "categoryCode": "desserts" },
+  { "categoryId": "cat-7", "name": "Drinks", "categoryCode": "drinks" },
+  { "categoryId": "cat-8", "name": "Pizza", "categoryCode": "pizza" },
+  { "categoryId": "cat-9", "name": "Burgers", "categoryCode": "burgers" },
+  {
+    "categoryId": "cat-10",
+    "name": "Sandwiches",
+    "categoryCode": "sandwiches"
+  },
+  { "categoryId": "cat-11", "name": "Pasta", "categoryCode": "pasta" },
+  { "categoryId": "cat-12", "name": "Drinks", "categoryCode": "drinks" }
+]

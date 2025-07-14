@@ -1,0 +1,53 @@
+[
+  {
+    "promotionId": "promo-001",
+    "name": "Discount Combo",
+    "description": "Gyudon is a nutritious and balanced meal. Also, you can customize your Gyudon with variety of delicious toppings such as kimchi and cheese.",
+    "image": "https://www.ktc.co.th/pub/media/Promotion/dining/Japanese/2025/AW_Katsuya_SmallBanner_379x285.webp",
+    "comboItems": [
+      {
+        "name": "Select a pizza",
+        "price": 60,
+        "hasSelection": true,
+        "category": "pizza"
+      },
+      { "name": "Classic Bread Stix", "price": 80, "hasSelection": false },
+      { "name": "Pepsi - 475ml", "price": 10, "hasSelection": false }
+    ]
+  },
+  {
+    "promotionId": "promo-002",
+    "name": "Family Feast",
+    "description": "Gyudon is a nutritious and balanced meal. Also, you can customize your Gyudon with variety of delicious toppings such as kimchi and cheese.",
+
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1UjuYoA5maGSSWI6jJL0pKC726QP3ujt3qQ&s",
+    "comboItems": [
+      {
+        "name": "Select a pizza",
+        "price": 26,
+        "hasSelection": true,
+        "category": "pizza"
+      },
+      { "name": "Classic Bread Stix", "price": 28, "hasSelection": false },
+      { "name": "Pepsi - 475ml", "price": 29, "hasSelection": false }
+    ]
+  },
+  {
+    "promotionId": "promo-003",
+    "name": "Free Dessert",
+    "description": "Gyudon is a nutritious and balanced meal. Also, you can customize your Gyudon with variety of delicious toppings such as kimchi and cheese.",
+
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1UjuYoA5maGSSWI6jJL0pKC726QP3ujt3qQ&s",
+
+    "comboItems": [
+      {
+        "name": "Select a pizza",
+        "price": 70,
+        "hasSelection": true,
+        "category": "pizza"
+      },
+      { "name": "Classic Bread Stix", "price": 21, "hasSelection": false },
+      { "name": "Pepsi - 475ml", "price": 90, "hasSelection": false }
+    ]
+  }
+]
