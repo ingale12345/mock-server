@@ -1,3 +1,11 @@
+// Helper to read menu items
+function readMenuItems() {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(__dirname, '../data/menuItems.json'), 'utf8'));
+  } catch (e) {
+    return [];
+  }
+}
 const { v4: uuidv4 } = require("uuid");
 const fs = require("fs");
 const path = require("path");
@@ -76,8 +84,13 @@ exports.addItemToCart = (req, res) => {
       i.mode === mode &&
       i.promotionId === promotionId
   );
+  // Get imageUrl from menuItems.json
+  const menuItems = readMenuItems();
+  const menuItem = menuItems.find((m) => (m.itemId || '').trim() === (itemCode || '').trim());
+  const imageUrl = menuItem && menuItem.imageUrl ? menuItem.imageUrl : null;
   if (existing) {
     existing.quantity += quantity;
+    existing.imageUrl = imageUrl;
     writeOrders(orders);
     return res.json(existing);
   }
@@ -92,6 +105,7 @@ exports.addItemToCart = (req, res) => {
     totalPrice: typeof totalPrice === "number" ? totalPrice : null,
     cookingRequest: cookingRequest || null,
     categoryCode: categoryCode || null,
+    imageUrl,
   };
   orders.push(orderItem);
   writeOrders(orders);
@@ -164,4 +178,14 @@ exports.getCartItems = (req, res) => {
     items = items.filter((i) => i.mode === mode);
   }
   res.json(items);
+};
+
+// Get cart items by promotionId
+exports.getCartItemsByPromotion = (req, res) => {
+  const { sessionId, promotionId } = req.params;
+  const orders = readOrders();
+  const filtered = orders.filter(
+    (i) => i.sessionId === sessionId && i.promotionId === promotionId
+  );
+  res.json(filtered);
 };

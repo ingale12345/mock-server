@@ -10,5 +10,7 @@ router.put("/edit/:orderItemId", cartController.editCartItem);
 router.delete("/delete/:orderItemId", cartController.deleteCartItem);
 // Get all cart items for a session
 router.get("/:sessionId", cartController.getCartItems);
+// Get cart items by promotionId
+router.get('/:sessionId/by-promotion/:promotionId', cartController.getCartItemsByPromotion);
 
 module.exports = router;
