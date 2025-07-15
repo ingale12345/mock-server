@@ -1,14 +1,1 @@
-[
-  {
-    "id": "43a77bb4-d397-43ea-a13c-0b2c1dcf6e5b",
-    "sessionId": "customerSessionId",
-    "itemCode": "item 8",
-    "addons": ["addon-1", "addon-2"],
-    "quantity": 1,
-    "mode": "dine-in",
-    "promotionId": "promo-001",
-    "totalPrice": 16.191000000000003,
-    "cookingRequest": null,
-    "categoryCode": "pizza"
-  }
-]
+[]
