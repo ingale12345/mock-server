@@ -18,7 +18,7 @@ app.use("/api", userRoutes);
 app.use("/api/cart", cartRoutes);
 
 app.use("/api/categories", categoriesRoutes);
-app.use("/api/menu", menuRoutes);
+app.use("/api/menus", menuRoutes);
 app.use("/api/addons", addonsRoutes);
 app.use("/api/restaurants", restaurantsRoutes);
 app.use("/api/promotions", promotionsRoutes);
