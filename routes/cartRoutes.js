@@ -12,5 +12,7 @@ router.delete("/delete/:orderItemId", cartController.deleteCartItem);
 router.get("/:sessionId", cartController.getCartItems);
 // Get cart items by promotionId
 router.get('/:sessionId/by-promotion/:promotionId', cartController.getCartItemsByPromotion);
+// Update order item status
+router.patch('/status/:orderItemId', cartController.updateOrderStatus);
 
 module.exports = router;

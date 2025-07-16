@@ -106,10 +106,23 @@ exports.addItemToCart = (req, res) => {
     cookingRequest: cookingRequest || null,
     categoryCode: categoryCode || null,
     imageUrl,
+    status: 'draft', // new field
   };
   orders.push(orderItem);
   writeOrders(orders);
   res.status(201).json(orderItem);
+};
+
+// Update order item status
+exports.updateOrderStatus = (req, res) => {
+  const { orderItemId } = req.params;
+  const { status } = req.body;
+  let orders = readOrders();
+  const item = orders.find((i) => i.id === orderItemId);
+  if (!item) return res.status(404).json({ error: "Order item not found" });
+  item.status = status;
+  writeOrders(orders);
+  res.json(item);
 };
 
 // Edit item in cart
